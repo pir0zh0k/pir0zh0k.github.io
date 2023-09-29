@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pir0zh0k Card</title>
+    <link rel="stylesheet" href="./assets/libs/animate/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/element_animation.js" defer></script>
+    <!-- <script src="./js/smooth_scroll.js" defer></script> -->
+    <script src="./js/mobile_menu.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container __container">
+                <div class="logo">
+                    Pir0zh0k
+                </div>
+                <nav class="header__menu">
+                    <a href="">About Me</a>
+                    <a href="">Technology stack</a>
+                </nav>
+                <div class="connection__button">
+                    <button>Connect With Me</button>
+                </div>
+            </div>
+        </header>
+        <header class="mobile__header">
+            <div class="mobile__header__container __container">
+                <div class="logo">
+                    Pir0zh0k
+                </div>
+                <div class="mobile__menu_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <nav class="mobile__menu">
+            <a href="#about_me">About Me</a>
+            <a href="#technologies">Technology stack</a>
+            <div class="connection__button">
+                <button>Connect With Me</button>
+            </div>
+        </nav>
+        <main class="main">
+            <div class="start__screen" id="startScreen">
+                <div class="start__screen_content __container">
+                    <h1 class="start__screen_title animated fadeInDownBig">Pir0zh0k</h1>
+                    <div class="preferences">
+                        <h2 class="animated fadeInLeftBig">| Fast</h2>
+                        <h2 class="animated fadeInLeftBig">| Reliable</h2>
+                        <h2 class="animated fadeInLeftBig">| Qualitatively</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-me element-animation" id="about_me">
+                <h1 class="main__title">About Me</h1>
+                <div class="about-me__container __container">
+                    <div class="about-me__avatar">
+                        <img src="./assets/images/avatar.jpg" alt="Avatar">
+                    </div>
+                    <div class="about-me__text element-animation">
+                        <h1>Pir0zh0k</h1>
+                        <p>Hi, I'm Pir0zh0k, a young 21-year-old web developer.</p>
+                        <p>I am developing websites and web applications, and I also know how to write bots for Telegram</p>
+                        <p>I have 1 year of commercial development experience, and 3 years of general experience. I think I am experienced enough to write a service of almost any complexity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="technologies element-animation" id="technologies">
+                <h1 class="main__title">Technologies Stack</h1>
+                <div class="technologies__container __container">
+                    <div class="technology__item">
+                        <img src="./assets/images/vue.png" alt="">
+                        <h1>Vue3</h1>
+                    </div>
+                    <div class="technology__item">
+                        <img src="./assets/images/tailwind.svg" alt="">
+                        <h1>TailwindCSS</h1>
+                    </div>
+                    <div class="technology__item">
+                        <img src="./assets/images/pinia.svg" alt="">
+                        <h1>Pinia</h1>
+                    </div>
+                    <div class="technology__item">
+                        <img src="./assets/images/html.png" alt="">
+                        <h1>HTML, CSS, JS</h1>
+                    </div>
+                    <div class="technology__item">
+                        <img src="./assets/images/php_logo.svg" alt="">
+                        <h1>PHP</h1>
+                    </div>
+                    <div class="technology__item">
+                        <img src="./assets/images/node_js.svg" alt="">
+                        <h1>NodeJS</h1>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script>
+        VANTA.GLOBE({
+            el: "#startScreen",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xe536b,
+            size: 0.50,
+            backgroundColor: 0x0f172a
+        })
+    </script>
+</body>
+
+</html>

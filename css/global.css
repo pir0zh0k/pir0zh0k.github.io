@@ -1,0 +1,33 @@
+/* CSS Variables */
+:root{
+    /* Colors */
+    --slate-900: #0f172a;
+    --slate-700: #334155;
+    --slate-500: #64748b;
+    --slate-200: #e2e8f0;
+    --violet-500: #8b5cf6;
+    --violet-800: #5b21b6;
+    --pink-500: #ec4899;
+    --rose-900: #881337;
+    --indigo-700: #4338ca;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    background: var(--slate-900);
+    color: var(--slate-200);
+}
+
+.__container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,9 @@
+.element-animation {
+    margin: 2rem 0;
+    opacity: 0;
+  }
+
+.element-animation.element-show {
+    opacity: 1;
+    transition: opacity 1s;
+}
